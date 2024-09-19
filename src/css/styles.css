@@ -95,9 +95,14 @@ button:hover {
   background-size: 215px 220px, 215px 130px, 100px 15px, 150px 15px;
   background-position: -215px 0, 0 0, 15px 150px, 15px 180px;
   animation: loading 2s infinite;
-  margin: 200px auto;
+  margin: 20px auto;
 }
 
+.load-more-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
 @keyframes loading {
   to {
     background-position: 215px 0, 0 0, 15px 150px, 15px 180px;
