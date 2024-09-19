@@ -3,6 +3,7 @@ import iziToast from 'izitoast';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import axios from 'axios';
 
 const form = document.getElementById('search-form');
 const gallery = document.getElementById('gallery');
